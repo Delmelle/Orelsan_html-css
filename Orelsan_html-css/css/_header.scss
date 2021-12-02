@@ -1,0 +1,37 @@
+body {
+  header {
+    height: 200px;
+    background: url(/img/fond_heade.jpg) no-repeat center;
+    background-size: 100%;
+    background-position: top 70% center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    > nav {
+      max-width: $max_with2;
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      .active {
+        background-color: white;
+        color: black;
+      }
+      > a {
+        padding: 5vh;
+        padding-top: 2vh;
+        padding-bottom: 1vh;
+        color: #fff;
+        text-decoration: none;
+        font-family: "Montserrat";
+        font-weight: normal;
+        text-transform: uppercase;
+
+        &:hover {
+          background-color: white;
+          color: black;
+        }
+      }
+    }
+  }
+}
